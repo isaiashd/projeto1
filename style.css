@@ -48,8 +48,12 @@ body * {
 
 #profile img {
   width: 112px;
-  display: block;
-  margin: auto;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid white;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
 }
 #profile p {
   font-weight: 500;
